@@ -5,7 +5,7 @@
     "title": "Eid BBQ 2026",
     "subtitle": "Eid-ul-Adha 2026 Celebration",
     "description": "Join us for a relaxed day with food, family and live BBQ. Please arrive early as there is a 15–20 minute walk from parking to the meetup spot.",
-    "date": "Tuesday, May 26 • 1:00 PM",
+    "date": "Tuesday, May 26 1:00 PM",
     "calendar": {
       "start": "2026-05-26T13:00:00",
       "end": "2026-05-26T18:00:00",
@@ -76,36 +76,6 @@
         { "name": "Dumba Karahi", "qty": 1 },
         { "name": "Green Tea Leaves", "qty": 1 }
       ]
-    },
-    {
-      "id": "b7",
-      "bundleName": "Vegetarian Bundle",
-      "items": [
-        { "name": "Paneer Tikka Skewers", "qty": 8 },
-        { "name": "Mixed Veg Jalfrezi", "qty": 1 },
-        { "name": "Tandoori Roti", "qty": 6 },
-        { "name": "Daal Mash", "qty": 1 }
-      ]
-    },
-    {
-      "id": "b8",
-      "bundleName": "Seafood BBQ Bundle",
-      "items": [
-        { "name": "Grilled Pomfret", "qty": 2 },
-        { "name": "Prawn Skewers", "qty": 12 },
-        { "name": "Garlic Mayo Dip", "qty": 2 },
-        { "name": "Herb Rice", "qty": 1 }
-      ]
-    },
-    {
-      "id": "b9",
-      "bundleName": "Kids & Snacks Bundle",
-      "items": [
-        { "name": "Gourmet Beef Sliders", "qty": 12 },
-        { "name": "Honey Glazed Wings", "qty": 20 },
-        { "name": "Curly Fries", "qty": 4 },
-        { "name": "Coleslaw", "qty": 2 }
-      ]
     }
   ],
   "supportingItems": [
@@ -152,7 +122,7 @@
   },
   "families": [
     {
-      "familyName": "Ahmed Family",
+      "familyName": "Family A",
       "bundleId": "b1",
       "supportingItemIds": ["s1", "s2"],
       "essentialsBoxIds": ["family", "bbq"],
@@ -160,7 +130,7 @@
       "type": "groups"
     },
     {
-      "familyName": "Khan Family",
+      "familyName": "Family B",
       "bundleId": "b2",
       "supportingItemIds": ["s3", "s4"],
       "essentialsBoxIds": ["family"],
@@ -168,7 +138,7 @@
       "type": "family_restroom"
     },
     {
-      "familyName": "Malik Clan",
+      "familyName": "Family C",
       "bundleId": "b3",
       "supportingItemIds": ["s1", "s5"],
       "essentialsBoxIds": ["family"],
@@ -219,7 +189,7 @@
           "icon": "icecream"
         },
         {
-          "name": "Tea",
+          "name": "Tea & Coffee",
           "description": "Served once things slow down",
           "icon": "coffee"
         }
@@ -233,7 +203,7 @@
       {
         "time": "1:00 PM",
         "event": "Arrival & Setup",
-        "details": "Setup team and BBQ crew arrive early to set up grills, tables and prep the area. Families arrive and place their assigned items on the designated tables"
+        "details": "Setup team and BBQ crew arrive early. Families arrive and place their assigned items on the designated tables"
       },
       {
         "time": "1:30 PM",
@@ -273,7 +243,7 @@
       },
       {
         "title": "Waste Management",
-        "desc": "Color-coded bins for recycling and general waste are placed near every bundle station."
+        "desc": "Bins for recycling and general waste are placed near the tables."
       }
     ],
     "proTip": "Please bring your assigned bundle items, essentials, water and sun protection like caps or sunscreen."
@@ -283,7 +253,7 @@
       "id": "01",
       "team": "Grill Team",
       "icon": "fireplace",
-      "members": ["Zaid Ahmed", "Omar Farooq", "Salman Khan"],
+      "members": ["N/A"],
       "color": "primary",
       "image": "https://picsum.photos/seed/grill/800/600",
       "expectation": "Responsible for starting and managing grills."
@@ -292,7 +262,7 @@
       "id": "02",
       "team": "Setup Team",
       "icon": "event_seat",
-      "members": ["Yusuf Khan", "Hamza Khan"],
+      "members": ["N/A"],
       "color": "secondary",
       "image": "https://picsum.photos/seed/setup/800/600",
       "expectation": "Arrive early to set up tables and organize the event area."
@@ -301,7 +271,7 @@
       "id": "03",
       "team": "Kids Activity Team",
       "icon": "child_care",
-      "members": ["Sara Malik", "Maryam Ahmed"],
+      "members": ["N/A"],
       "color": "tertiary",
       "image": "https://picsum.photos/seed/kids/800/600",
       "expectation": "Organize and supervise games and activities for children."
@@ -310,7 +280,7 @@
       "id": "04",
       "team": "Cleanup Team",
       "icon": "cleaning_services",
-      "members": ["Bilal & Friends", "Youth Group"],
+      "members": ["N/A"],
       "color": "primary",
       "image": "https://picsum.photos/seed/cleanup/800/600",
       "expectation": "Lead the cleanup at the end of the event."
@@ -323,24 +293,12 @@
   },
   "faqs": [
     {
-      "question": "Is the meat Halal?",
-      "answer": "Yes, all meat served at the Eid BBQ is 100% Halal certified and sourced from local artisanal butchers."
-    },
-    {
-      "question": "Can I bring my own food?",
-      "answer": "While we provide a full feast, you are welcome to bring specific dietary items or your favorite home-cooked sides to share with your family."
-    },
-    {
       "question": "What should I bring?",
       "answer": "Please bring your assigned bundle items, essentials box, water for your family, and sun protection like caps or sunscreen."
     },
     {
-      "question": "Is there a prayer area?",
-      "answer": "Yes, a designated quiet area with prayer mats will be available for Dhuhr and Asr prayers."
-    },
-    {
       "question": "What happens if it rains?",
-      "answer": "The Riverside Pavilion is covered, so the BBQ will go ahead rain or shine! In case of extreme weather, we will notify everyone via the community WhatsApp group."
+      "answer": "In case of extreme weather, we will notify everyone via the WhatsApp group."
     }
   ]
 }
