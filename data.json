@@ -1,0 +1,330 @@
+{
+  "hero": {
+    "title": "Eid BBQ Festival",
+    "subtitle": "Summer 2026 Celebration",
+    "description": "Join us for an afternoon of artisanal grilled delicacies, laughter, and community spirit. A celebration of tradition painted with the vibrant soul of truck art.",
+    "date": "May 26, 1:00 PM",
+    "calendar": {
+      "start": "2026-05-26T13:00:00",
+      "end": "2026-05-26T17:00:00",
+      "title": "Eid Festive BBQ Festival",
+      "description": "Join us for an afternoon of artisanal grilled delicacies, laughter, and community spirit.",
+      "location": "Stadtpark Hamburg"
+    },
+    "location": "Stadtpark Hamburg",
+    "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5EDPcfZS0PUIiqhLpz1zXnmZi12MX4B_P9GBiQYMQwFHTizEKIG6aFt2_qzVFRlHlrCKgUS9eLO8RgbdK0K1-o43io2iCC1on1qQlEwcPQcWNU0JHnm1IoFtfeCno40zMNKF4RwPdl4Ou3TmSUIG4QUFsE3a5m5jXYJnHUn0YnzEl2-csIYK61HrZAoKor9XZeiDHebRZ_HDbL_0XO8so-L6T_Yep7IyBVcgjOdsoO2wW-l_Kg7nJRyouRSpyqFyvu0eq6w1NKxiL"
+  },
+  "predefinedBundles": [
+    {
+      "id": "b1",
+      "bundleName": "Grand Mughal Bundle",
+      "items": [
+        { "name": "Seekh Kababs", "qty": 6 },
+        { "name": "Chicken Tikka Pieces", "qty": 4 },
+        { "name": "Large Handi Biryani", "qty": 1 },
+        { "name": "Naan & Raita", "qty": 6 }
+      ]
+    },
+    {
+      "id": "b2",
+      "bundleName": "Lahori Feast",
+      "items": [
+        { "name": "Beef Patties", "qty": 4 },
+        { "name": "Chicken Wings", "qty": 4 },
+        { "name": "Parathas", "qty": 4 },
+        { "name": "Salad Platter", "qty": 1 }
+      ]
+    },
+    {
+      "id": "b3",
+      "bundleName": "Spice Route Special",
+      "items": [
+        { "name": "Chapli Kababs", "qty": 12 },
+        { "name": "Whole Charcoal Chicken", "qty": 2 },
+        { "name": "Extra Spicy Chutney", "qty": 1 },
+        { "name": "Kulchas", "qty": 8 }
+      ]
+    },
+    {
+      "id": "b4",
+      "bundleName": "Sindhi Biryani Feast",
+      "items": [
+        { "name": "Sindhi Mutton Biryani", "qty": 1 },
+        { "name": "Shami Kababs", "qty": 8 },
+        { "name": "Kachumbar Salad", "qty": 2 },
+        { "name": "Zeera Raita", "qty": 2 }
+      ]
+    },
+    {
+      "id": "b5",
+      "bundleName": "Balochi Sajji Platter",
+      "items": [
+        { "name": "Whole Lamb Sajji", "qty": 1 },
+        { "name": "Kaak Bread", "qty": 6 },
+        { "name": "Special Sajji Masala", "qty": 1 },
+        { "name": "Lemon Wedges", "qty": 10 }
+      ]
+    },
+    {
+      "id": "b6",
+      "bundleName": "Khyber Pass Grill",
+      "items": [
+        { "name": "Namkeen Tikka", "qty": 10 },
+        { "name": "Afghani Naan", "qty": 4 },
+        { "name": "Dumba Karahi", "qty": 1 },
+        { "name": "Green Tea Leaves", "qty": 1 }
+      ]
+    },
+    {
+      "id": "b7",
+      "bundleName": "Vegetarian Delight",
+      "items": [
+        { "name": "Paneer Tikka Skewers", "qty": 8 },
+        { "name": "Mixed Veg Jalfrezi", "qty": 1 },
+        { "name": "Tandoori Roti", "qty": 6 },
+        { "name": "Daal Mash", "qty": 1 }
+      ]
+    },
+    {
+      "id": "b8",
+      "bundleName": "Seafood Splash",
+      "items": [
+        { "name": "Grilled Pomfret", "qty": 2 },
+        { "name": "Prawn Skewers", "qty": 12 },
+        { "name": "Garlic Mayo Dip", "qty": 2 },
+        { "name": "Herb Rice", "qty": 1 }
+      ]
+    },
+    {
+      "id": "b9",
+      "bundleName": "Burger & Wings Combo",
+      "items": [
+        { "name": "Gourmet Beef Sliders", "qty": 12 },
+        { "name": "Honey Glazed Wings", "qty": 20 },
+        { "name": "Curly Fries", "qty": 4 },
+        { "name": "Coleslaw", "qty": 2 }
+      ]
+    }
+  ],
+  "supportingItems": [
+    { "id": "s1", "name": "Folding Chairs" },
+    { "id": "s2", "name": "Picnic Blanket" },
+    { "id": "s3", "name": "Portable Speaker" },
+    { "id": "s4", "name": "Cooler Box" },
+    { "id": "s5", "name": "Disposable Plates" }
+  ],
+  "essentialsBoxes": {
+    "family": [
+      { "name": "Water" },
+      { "name": "Cold Drinks" },
+      { "name": "Disposable Plates" },
+      { "name": "Disposable Cutlery" },
+      { "name": "Disposable Cups (for drinks & tea)" },
+      { "name": "Hot Water Kettle (for tea/coffee)" },
+      { "name": "Picnic Mat and /or Chairs" },
+      { "name": "Tissues" },
+      { "name": "Extras for your family.." }
+    ],
+    "bbq": [
+      { "name": "Aluminum Trays", "quantity": "12" },
+      { "name": "BBQ Tongs (Wooden/Steel)", "quantity": "4" },
+      { "name": "Igniters", "quantity": "4" },
+      { "name": "Grill Cleaning Brush", "quantity": "2" }
+    ],
+    "cooking": [
+      { "name": "Vegetable Oil", "quantity": "2 liters" },
+      { "name": "Oiling Brush", "quantity": "4" },
+      { "name": "Aluminum Foil", "quantity": "3 Rolls" },
+      { "name": "Garbage Bags (100L)", "quantity": "1" }
+    ],
+    "tea": [
+      { "name": "Tea Bags", "quantity": "100" },
+      { "name": "Condensed Milk", "quantity": "2 liters" },
+      { "name": "Sugar Cubes", "quantity": "1 kg" },
+      { "name": "Sheet Cake", "quantity": "1" }
+    ],
+    "coffee": [
+      { "name": "Instant Coffee Sticks (3-in-1)", "quantity": "50 sticks" },
+      { "name": "Brown Sugar", "quantity": "500 g" }
+    ]
+  },
+  "families": [
+    {
+      "familyName": "Ahmed Family",
+      "bundleId": "b1",
+      "supportingItemIds": ["s1", "s2"],
+      "essentialsBoxIds": ["family", "bbq"],
+      "lastUpdated": "Today, 10:30 AM",
+      "type": "groups"
+    },
+    {
+      "familyName": "Khan Family",
+      "bundleId": "b2",
+      "supportingItemIds": ["s3", "s4"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "Yesterday, 4:15 PM",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Malik Clan",
+      "bundleId": "b3",
+      "supportingItemIds": ["s1", "s5"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "June 15, 9:00 AM",
+      "type": "diversity_3"
+    }
+  ],
+  "menu": [
+    {
+      "id": "01",
+      "category": "Appetizers",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQia66VpAxd-76ti5GQ2gRpSyCwViHJ74jObOYuXFGr86VHVuCTO_pPMuJo5wNV3bIWB86ac2aLaI4wQ_iBrKAxFmj7hGmp9l8EhEB-q8lhAQniAYOqHszyzf-GeYVcBpqBmDPBQ4T5o8afqegHaKzMLM5nLJdrq5xgljUr9tH1JpPnjdDLojHg24tSIxDrMWDfWvBUu5vLMRz0mjso1B7vELXBjyyytXvMQgBEAtGo0wyGsK0_Ynm5tXi5OB76NdzzDXJtNMedtcb",
+      "items": [
+        {
+          "name": "Dahi Bhallay",
+          "description": "Lentil dumplings in spicy yogurt with tamarind chutney and papdi.",
+          "icon": "potted_plant"
+        },
+        {
+          "name": "Vegetable Pakoras",
+          "description": "Crispy fritters made with gram flour and seasonal vegetables.",
+          "icon": "fastfood"
+        }
+      ],
+      "color": "secondary"
+    },
+    {
+      "id": "02",
+      "category": "Live BBQ",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCC_3Ul-yeXebSbCEj3DHwoYld7HM4DwtI4sY4ucLH1P8DY8DvBLPMKktQyXHmbarkcs5Uedw6ggPWX_mENH-ZK9X4KYBMaWnM9aHtrqKF8Uv2gxBcmJXMpZ2HRGSOw44FgwvoHzsVAd_vUUn-bsJF1z1Ntl-KX3UYg1Z847CVGmOz8DPbrSEnlEgsmAr3USe-7y7cFPWqfxhn-iwp6JD947qIQ5GBVJPvxzXsPJUtT5AxDdh5wwh1iRBha8QN6_7ZfQggs_NSQccdr",
+      "items": [
+        {
+          "name": "The Charcoal Grill",
+          "description": "Smokey Seekh Kababs, Malai Tikka, and Spicy Lamb Chops.",
+          "icon": "outdoor_grill"
+        },
+        {
+          "name": "Traditional Sides",
+          "description": "Tandoori Naan, Garlic Kulcha, and Saffron Fragrant Biryani.",
+          "icon": "rice_bowl"
+        }
+      ],
+      "color": "primary"
+    },
+    {
+      "id": "03",
+      "category": "Sweet Tea",
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvFfDC2Rv1Jb-UWoKjLBvOBWSsmYKclILcWvv8i7c9iXk2GfNHjgCjSIhEc_JmHqYlp551eC3_Ri9QCs96-FJVAkecYG2g_wGo2CUBA4jkpQJHFgQ8bS0fKiF2dXg3MhkIq-wPyI9_sT_pRhK0pnxhc_xWYYoTA1spFITnNyg03wBJvcAy_P2du56AGAnUNaC5NsGcz99bRsdfg5IcwVui4t0q9ejVX5Fc5xc02rIlEIOj3TjXrq9pdwo4Uyrn8oRp71Rk9va4BivG",
+      "items": [
+        {
+          "name": "Shahi Kheer & Kulfi",
+          "description": "Slow-cooked rice pudding and traditional frozen dairy dessert.",
+          "icon": "icecream"
+        },
+        {
+          "name": "Kashmiri Pink Tea",
+          "description": "Traditional Noon Chai garnished with crushed pistachios.",
+          "icon": "coffee"
+        }
+      ],
+      "color": "tertiary"
+    }
+  ],
+  "logistics": {
+    "equipment": "We have prepared 4 heavy-duty commercial grills. Charcoal, ignition kits, and basic grilling tools are provided by the organizing committee.",
+    "timeline": [
+      {
+        "time": "1:00 PM",
+        "event": "Arrival & Setup",
+        "details": "Guests arrive and find their designated bundle areas."
+      },
+      {
+        "time": "1:30 PM",
+        "event": "Kids' Menu Priority",
+        "details": "The first batch of mild skewers and sliders for the little ones."
+      },
+      {
+        "time": "2:15 PM",
+        "event": "Main BBQ Feast",
+        "details": "The grills go into full swing with Seekh Kababs and Tikka."
+      },
+      {
+        "time": "3:30 PM",
+        "event": "Dessert & Tea",
+        "details": "Sweet treats and Kashmiri tea served at the pavilion."
+      }
+    ],
+    "additionalDetails": [
+      {
+        "title": "Safety First",
+        "desc": "First aid kits are available at the main pavilion. Please keep kids away from the active grill zone."
+      },
+      {
+        "title": "Waste Management",
+        "desc": "Color-coded bins for recycling and general waste are placed near every bundle station."
+      }
+    ],
+    "proTip": "Bring your own folding chairs and picnic blankets. We have the pavilion, but the best views of the lake are from the grass nearby!"
+  },
+  "volunteers": [
+    {
+      "id": "01",
+      "team": "Grill Masters",
+      "icon": "fireplace",
+      "members": ["Zaid Ahmed", "Omar Farooq", "Salman Khan"],
+      "color": "primary",
+      "image": "https://picsum.photos/seed/grill/800/600"
+    },
+    {
+      "id": "02",
+      "team": "Setup Crew",
+      "icon": "event_seat",
+      "members": ["Yusuf Khan", "Hamza Khan"],
+      "color": "secondary",
+      "image": "https://picsum.photos/seed/setup/800/600"
+    },
+    {
+      "id": "03",
+      "team": "Kids Activity",
+      "icon": "child_care",
+      "members": ["Sara Malik", "Maryam Ahmed"],
+      "color": "tertiary",
+      "image": "https://picsum.photos/seed/kids/800/600"
+    },
+    {
+      "id": "04",
+      "team": "Cleanup Team",
+      "icon": "cleaning_services",
+      "members": ["Bilal & Friends", "Youth Group"],
+      "color": "primary",
+      "image": "https://picsum.photos/seed/cleanup/800/600"
+    }
+  ],
+  "parking": {
+    "mapImage": "https://lh3.googleusercontent.com/aida/ADBb0uhf9HL1LNdBNUqawQrPOT0bU58YYDAYXSTBISt7jPjfBqsJrdEf6yI3mxaNyBmi6lrOS8AdgMu1x84Nol3YPRXHX0nzaFb7pJIOGthaq11O3SSnjobfnVjMpZxDK9hnUtljwTSJg1r_Q7YC5_Y7ahHIxtCRC2vnc-f0D00nmyEHwNP9TCd6516BOXxppW1xTK6J9JbF4KDoQ73tFb_U1isoq7JcJ4YD2odTk8sShJDuht-QDHrTHvZf1H6vQBM1VNYcPNYKqg7SSRw",
+    "mainLot": "Parking is available at the South Entrance. Valid event pass required for entry after 11 AM.",
+    "walkingPath": "Follow the colorful truck-art streamers from the parking lot to the BBQ pits (approx. 4 min walk)."
+  },
+  "faqs": [
+    {
+      "question": "Is the meat Halal?",
+      "answer": "Yes, all meat served at the Eid BBQ is 100% Halal certified and sourced from local artisanal butchers."
+    },
+    {
+      "question": "Can I bring my own food?",
+      "answer": "While we provide a full feast, you are welcome to bring specific dietary items or your favorite home-cooked sides to share with your family."
+    },
+    {
+      "question": "What should I bring?",
+      "answer": "We recommend bringing folding chairs, picnic blankets, and sun protection. We provide the food, drinks, and basic seating under the pavilion."
+    },
+    {
+      "question": "Is there a prayer area?",
+      "answer": "Yes, a designated quiet area with prayer mats will be available for Dhuhr and Asr prayers."
+    },
+    {
+      "question": "What happens if it rains?",
+      "answer": "The Riverside Pavilion is covered, so the BBQ will go ahead rain or shine! In case of extreme weather, we will notify everyone via the community WhatsApp group."
+    }
+  ]
+}
