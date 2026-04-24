@@ -50,7 +50,7 @@ async function init() {
     renderFAQs(data.faqs);
 
     // Start Countdown
-    startCountdown(data.hero.calendar.start);
+    // startCountdown(data.hero.calendar.start);
 
     // Mobile Menu Toggle
     const mobileMenuBtn = document.getElementById("mobile-menu-btn");
@@ -264,12 +264,22 @@ function renderHero(hero) {
                 ${hero.subtitle}
             </span>
             <h1 class="text-5xl md:text-7xl lg:text-8xl font-black text-[#b71029] font-headline leading-none mb-6">
-                Eid BBQ <br />
-                <span class="text-[#00675d]">Festival</span>
+                Eid Family <br />
+                <span class="text-[#00675d]">BBQ</span>
             </h1>
             <div class="w-24 md:w-32 h-2 chamakpatti-border mb-8 mx-auto lg:mx-0"></div>
             
+            <!-- Eid Day Banner -->
+            <div class="inline-flex items-center gap-3 bg-gradient-to-r from-[#00675d] to-[#008f7a] text-white px-5 py-3 rounded-xl mb-8 shadow-lg shadow-[#00675d]/20 mx-auto lg:mx-0">
+                <span class="material-symbols-outlined text-[#8cf5e4] text-2xl">celebration</span>
+                <div>
+                    <!-- <p class="text-[10px] uppercase font-bold tracking-widest text-[#8cf5e4]/80">First Day of Eid</p> -->
+                    <p class="text-lg font-black tracking-wide">First Day of Eid</p>
+                </div>
+            </div>
+
             <!-- Countdown Timer -->
+            <!--
             <div id="countdown" class="flex justify-center lg:justify-start gap-4 mb-10">
                 <div class="flex flex-col items-center bg-white/50 backdrop-blur-sm border border-stone-200 rounded-2xl p-3 min-w-[70px] md:min-w-[80px] shadow-sm">
                     <span id="days" class="text-2xl md:text-3xl font-black text-[#b71029]">00</span>
@@ -284,6 +294,7 @@ function renderHero(hero) {
                     <span class="text-[10px] uppercase font-bold tracking-widest text-stone-400">Minutes</span>
                 </div>
             </div>
+            -->
 
             <p class="text-base md:text-xl text-stone-600 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
                 ${hero.description}

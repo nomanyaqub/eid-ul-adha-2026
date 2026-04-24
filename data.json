@@ -293,12 +293,48 @@
   },
   "faqs": [
     {
-      "question": "What should I bring?",
-      "answer": "Please bring your assigned bundle items, essentials box, water for your family, and sun protection like caps or sunscreen."
+      "question": "How does the menu work?",
+      "answer": "The menu is served in stages. We start with appetizers, then move to main food and BBQ. Kids are served first, then the first BBQ round is shared, followed by open BBQ. Desserts and tea are served later."
     },
     {
-      "question": "What happens if it rains?",
-      "answer": "In case of extreme weather, we will notify everyone via the WhatsApp group."
+      "question": "What should I bring?",
+      "answer": "Please bring your assigned bundle items, essentials box, water for your family and sun protection like caps or sunscreen."
+    },
+    {
+      "question": "What day is the event exactly?",
+      "answer": "The BBQ is planned for the first day of Eid, depending on moon sighting. Final confirmation will be shared in the group."
+    },
+    {
+      "question": "What time should we arrive?",
+      "answer": "Please try to arrive on time or a bit early. If you are bringing grills or BBQ items, it is important to be there on time so we can start without delays."
+    },
+    {
+      "question": "What happens if we arrive late?",
+      "answer": "You can still join, but you might miss the first BBQ round or setup. We recommend arriving early to take part from the beginning."
+    },
+    {
+      "question": "Where should we place our items?",
+      "answer": "There will be designated tables for bundles and essentials. Please place your items there when you arrive."
+    },
+    {
+      "question": "How will BBQ be served?",
+      "answer": "We will first prepare food for kids, then serve a first round (ladies first), and after that BBQ will continue openly as it gets ready."
+    },
+    {
+      "question": "Can we start eating BBQ anytime?",
+      "answer": "We will try to serve the first round together so everyone gets a fair share. After that, BBQ will be open for everyone."
+    },
+    {
+      "question": "What if I cannot bring my bundle?",
+      "answer": "Please inform in advance so we can reassign it to another family."
+    },
+    {
+      "question": "Can I get help carrying items?",
+      "answer": "If you have heavy items like grills or tables, you can drop them near the park entrance and contact us in advance so we can help coordinate carrying."
+    },
+    {
+      "question": "Is there a backup plan for bad weather?",
+      "answer": "We are planning for an outdoor event, but if the weather is bad, we will communicate any changes or backup plans in the group."
     }
   ]
 }
