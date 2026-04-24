@@ -563,7 +563,7 @@ function renderLogistics(logistics) {
                     <div class="space-y-8">
                         <h3 class="text-2xl font-black font-headline text-[#b71029] mb-6 flex items-center gap-3">
                             <span class="material-symbols-outlined">schedule</span>
-                            The Cooking Plan
+                            The Plan
                         </h3>
                         <div class="relative pl-8 space-y-10 before:content-[''] before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-stone-200">
                             ${logistics.timeline

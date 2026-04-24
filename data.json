@@ -11,13 +11,13 @@
       "description": "Eid BBQ with family, food and live grilling",
       "location": "Stadtpark Hamburg"
     },
-    "location": "Stadtpark – Spielplatz area",
+    "location": "Stadtpark Hamburg",
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5EDPcfZS0PUIiqhLpz1zXnmZi12MX4B_P9GBiQYMQwFHTizEKIG6aFt2_qzVFRlHlrCKgUS9eLO8RgbdK0K1-o43io2iCC1on1qQlEwcPQcWNU0JHnm1IoFtfeCno40zMNKF4RwPdl4Ou3TmSUIG4QUFsE3a5m5jXYJnHUn0YnzEl2-csIYK61HrZAoKor9XZeiDHebRZ_HDbL_0XO8so-L6T_Yep7IyBVcgjOdsoO2wW-l_Kg7nJRyouRSpyqFyvu0eq6w1NKxiL"
   },
   "predefinedBundles": [
     {
       "id": "b1",
-      "bundleName": "Bundle: Grand Mughal",
+      "bundleName": "BBQ Meat Bundle",
       "items": [
         { "name": "Seekh Kababs", "qty": 6 },
         { "name": "Chicken Tikka Pieces", "qty": 4 },
@@ -27,7 +27,7 @@
     },
     {
       "id": "b2",
-      "bundleName": "Bundle: Lahori Feast",
+      "bundleName": "Appetizer Bundle",
       "items": [
         { "name": "Beef Patties", "qty": 4 },
         { "name": "Chicken Wings", "qty": 4 },
@@ -37,7 +37,7 @@
     },
     {
       "id": "b3",
-      "bundleName": "Bundle: Spice Route Special",
+      "bundleName": "BBQ Variety Bundle",
       "items": [
         { "name": "Chapli Kababs", "qty": 12 },
         { "name": "Whole Charcoal Chicken", "qty": 2 },
@@ -47,7 +47,7 @@
     },
     {
       "id": "b4",
-      "bundleName": "Bundle: Sindhi Biryani Feast",
+      "bundleName": "Rice & Curry Bundle",
       "items": [
         { "name": "Sindhi Mutton Biryani", "qty": 1 },
         { "name": "Shami Kababs", "qty": 8 },
@@ -57,7 +57,7 @@
     },
     {
       "id": "b5",
-      "bundleName": "Bundle: Balochi Sajji Platter",
+      "bundleName": "Large Meat Bundle",
       "items": [
         { "name": "Whole Lamb Sajji", "qty": 1 },
         { "name": "Kaak Bread", "qty": 6 },
@@ -67,7 +67,7 @@
     },
     {
       "id": "b6",
-      "bundleName": "Bundle: Khyber Pass Grill",
+      "bundleName": "BBQ + Tea Prep Bundle",
       "items": [
         { "name": "Namkeen Tikka", "qty": 10 },
         { "name": "Afghani Naan", "qty": 4 },
@@ -77,7 +77,7 @@
     },
     {
       "id": "b7",
-      "bundleName": "Bundle: Vegetarian Delight",
+      "bundleName": "Vegetarian Bundle",
       "items": [
         { "name": "Paneer Tikka Skewers", "qty": 8 },
         { "name": "Mixed Veg Jalfrezi", "qty": 1 },
@@ -87,7 +87,7 @@
     },
     {
       "id": "b8",
-      "bundleName": "Bundle: Seafood Splash",
+      "bundleName": "Seafood BBQ Bundle",
       "items": [
         { "name": "Grilled Pomfret", "qty": 2 },
         { "name": "Prawn Skewers", "qty": 12 },
@@ -97,7 +97,7 @@
     },
     {
       "id": "b9",
-      "bundleName": "Bundle: Burger & Wings Combo",
+      "bundleName": "Kids & Snacks Bundle",
       "items": [
         { "name": "Gourmet Beef Sliders", "qty": 12 },
         { "name": "Honey Glazed Wings", "qty": 20 },
@@ -148,32 +148,7 @@
       { "name": "Brown Sugar", "quantity": "500 g" }
     ]
   },
-  "families": [
-    {
-      "familyName": "Ahmed Family",
-      "bundleId": "b1",
-      "supportingItemIds": ["s1", "s2"],
-      "essentialsBoxIds": ["family", "bbq"],
-      "lastUpdated": "Today, 10:30 AM",
-      "type": "groups"
-    },
-    {
-      "familyName": "Khan Family",
-      "bundleId": "b2",
-      "supportingItemIds": ["s3", "s4"],
-      "essentialsBoxIds": ["family"],
-      "lastUpdated": "Yesterday, 4:15 PM",
-      "type": "family_restroom"
-    },
-    {
-      "familyName": "Malik Clan",
-      "bundleId": "b3",
-      "supportingItemIds": ["s1", "s5"],
-      "essentialsBoxIds": ["family"],
-      "lastUpdated": "June 15, 9:00 AM",
-      "type": "diversity_3"
-    }
-  ],
+  "families": [],
   "menu": [
     {
       "id": "01",
@@ -181,13 +156,8 @@
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAQia66VpAxd-76ti5GQ2gRpSyCwViHJ74jObOYuXFGr86VHVuCTO_pPMuJo5wNV3bIWB86ac2aLaI4wQ_iBrKAxFmj7hGmp9l8EhEB-q8lhAQniAYOqHszyzf-GeYVcBpqBmDPBQ4T5o8afqegHaKzMLM5nLJdrq5xgljUr9tH1JpPnjdDLojHg24tSIxDrMWDfWvBUu5vLMRz0mjso1B7vELXBjyyytXvMQgBEAtGo0wyGsK0_Ynm5tXi5OB76NdzzDXJtNMedtcb",
       "items": [
         {
-          "name": "Dahi Bhallay",
-          "description": "Lentil dumplings in spicy yogurt with tamarind chutney and papdi.",
-          "icon": "potted_plant"
-        },
-        {
-          "name": "Vegetable Pakoras",
-          "description": "Crispy fritters made with gram flour and seasonal vegetables.",
+          "name": "Snacks & Starters",
+          "description": "Ready-to-eat items served as families arrive",
           "icon": "fastfood"
         }
       ],
@@ -199,14 +169,14 @@
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCC_3Ul-yeXebSbCEj3DHwoYld7HM4DwtI4sY4ucLH1P8DY8DvBLPMKktQyXHmbarkcs5Uedw6ggPWX_mENH-ZK9X4KYBMaWnM9aHtrqKF8Uv2gxBcmJXMpZ2HRGSOw44FgwvoHzsVAd_vUUn-bsJF1z1Ntl-KX3UYg1Z847CVGmOz8DPbrSEnlEgsmAr3USe-7y7cFPWqfxhn-iwp6JD947qIQ5GBVJPvxzXsPJUtT5AxDdh5wwh1iRBha8QN6_7ZfQggs_NSQccdr",
       "items": [
         {
-          "name": "The Charcoal Grill",
-          "description": "Wurst for kids first, then first BBQ batch for ladies, then open BBQ",
-          "icon": "outdoor_grill"
+          "name": "Cooked Food",
+          "description": "Main dishes prepared in advance",
+          "icon": "rice_bowl"
         },
         {
-          "name": "Traditional Sides",
-          "description": "Tandoori Naan, Garlic Kulcha, and Saffron Fragrant Biryani.",
-          "icon": "rice_bowl"
+          "name": "Live BBQ",
+          "description": "Kids first, then first round for ladies, then open BBQ",
+          "icon": "outdoor_grill"
         }
       ],
       "color": "primary"
@@ -217,13 +187,13 @@
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvFfDC2Rv1Jb-UWoKjLBvOBWSsmYKclILcWvv8i7c9iXk2GfNHjgCjSIhEc_JmHqYlp551eC3_Ri9QCs96-FJVAkecYG2g_wGo2CUBA4jkpQJHFgQ8bS0fKiF2dXg3MhkIq-wPyI9_sT_pRhK0pnxhc_xWYYoTA1spFITnNyg03wBJvcAy_P2du56AGAnUNaC5NsGcz99bRsdfg5IcwVui4t0q9ejVX5Fc5xc02rIlEIOj3TjXrq9pdwo4Uyrn8oRp71Rk9va4BivG",
       "items": [
         {
-          "name": "Shahi Kheer & Kulfi",
-          "description": "Slow-cooked rice pudding and traditional frozen dairy dessert.",
+          "name": "Desserts",
+          "description": "Served after main and BBQ",
           "icon": "icecream"
         },
         {
-          "name": "Kashmiri Pink Tea",
-          "description": "Traditional Noon Chai garnished with crushed pistachios.",
+          "name": "Tea",
+          "description": "Served once things slow down",
           "icon": "coffee"
         }
       ],
@@ -236,32 +206,37 @@
       {
         "time": "1:00 PM",
         "event": "Arrival & Setup",
-        "details": "Families arrive and place their assigned items on the designated tables"
+        "details": "Setup team and BBQ crew arrive early to set up grills, tables and prep the area. Families arrive and place their assigned items on the designated tables"
       },
       {
         "time": "1:30 PM",
-        "event": "Appetizers",
-        "details": "Appetizers are served"
+        "event": "Appetizers & Kids BBQ",
+        "details": "Appetizers and first BBQ round for kids are served"
       },
       {
-        "time": "1:45 PM",
-        "event": "Kids BBQ",
-        "details": "First BBQ round for kids including wurst, corn, etc."
-      },
-      {
-        "time": "2:00 PM",
+        "time": "2:15 PM",
         "event": "Main & First BBQ",
         "details": "Main food starts along with BBQ. First serving is for ladies"
       },
       {
-        "time": "3:30 PM",
+        "time": "2:45 PM",
         "event": "Open BBQ",
         "details": "BBQ is open for everyone"
       },
       {
-        "time": "4:30 PM",
+        "time": "4:00 PM",
+        "event": "Play & Activities",
+        "details": "Kids can play in the playground area and volunteers will organize some games and activities"
+      },
+      {
+        "time": "5:00 PM",
         "event": "Desserts & Tea",
         "details": "Desserts and tea are served"
+      },
+      {
+        "time": "5:30 PM",
+        "event": "Cleanup",
+        "details": "Cleanup team leads, everyone is encouraged to help pack and leave the area clean"
       }
     ],
     "additionalDetails": [

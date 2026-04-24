@@ -1,0 +1,26 @@
+[
+  {
+    "familyName": "Ahmed Family",
+    "bundleId": "b1",
+    "supportingItemIds": ["s1", "s2"],
+    "essentialsBoxIds": ["family", "bbq"],
+    "lastUpdated": "Today, 10:30 AM",
+    "type": "groups"
+  },
+  {
+    "familyName": "Khan Family",
+    "bundleId": "b2",
+    "supportingItemIds": ["s3", "s4"],
+    "essentialsBoxIds": ["family"],
+    "lastUpdated": "Yesterday, 4:15 PM",
+    "type": "family_restroom"
+  },
+  {
+    "familyName": "Malik Clan",
+    "bundleId": "b3",
+    "supportingItemIds": ["s1", "s5"],
+    "essentialsBoxIds": ["family"],
+    "lastUpdated": "June 15, 9:00 AM",
+    "type": "diversity_3"
+  }
+]
