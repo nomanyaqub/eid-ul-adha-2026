@@ -1,4 +1,6 @@
 {
+  "showBundlesSection": false,
+  "showFamiliesSection": false,
   "hero": {
     "title": "Eid BBQ 2026",
     "subtitle": "Eid-ul-Adha 2026 Celebration",
@@ -148,7 +150,32 @@
       { "name": "Brown Sugar", "quantity": "500 g" }
     ]
   },
-  "families": [],
+  "families": [
+    {
+      "familyName": "Ahmed Family",
+      "bundleId": "b1",
+      "supportingItemIds": ["s1", "s2"],
+      "essentialsBoxIds": ["family", "bbq"],
+      "lastUpdated": "Today, 10:30 AM",
+      "type": "groups"
+    },
+    {
+      "familyName": "Khan Family",
+      "bundleId": "b2",
+      "supportingItemIds": ["s3", "s4"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "Yesterday, 4:15 PM",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Malik Clan",
+      "bundleId": "b3",
+      "supportingItemIds": ["s1", "s5"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "June 15, 9:00 AM",
+      "type": "diversity_3"
+    }
+  ],
   "menu": [
     {
       "id": "01",
@@ -258,7 +285,8 @@
       "icon": "fireplace",
       "members": ["Zaid Ahmed", "Omar Farooq", "Salman Khan"],
       "color": "primary",
-      "image": "https://picsum.photos/seed/grill/800/600"
+      "image": "https://picsum.photos/seed/grill/800/600",
+      "expectation": "Responsible for starting and managing grills."
     },
     {
       "id": "02",
@@ -266,7 +294,8 @@
       "icon": "event_seat",
       "members": ["Yusuf Khan", "Hamza Khan"],
       "color": "secondary",
-      "image": "https://picsum.photos/seed/setup/800/600"
+      "image": "https://picsum.photos/seed/setup/800/600",
+      "expectation": "Arrive early to set up tables and organize the event area."
     },
     {
       "id": "03",
@@ -274,7 +303,8 @@
       "icon": "child_care",
       "members": ["Sara Malik", "Maryam Ahmed"],
       "color": "tertiary",
-      "image": "https://picsum.photos/seed/kids/800/600"
+      "image": "https://picsum.photos/seed/kids/800/600",
+      "expectation": "Organize and supervise games and activities for children."
     },
     {
       "id": "04",
@@ -282,7 +312,8 @@
       "icon": "cleaning_services",
       "members": ["Bilal & Friends", "Youth Group"],
       "color": "primary",
-      "image": "https://picsum.photos/seed/cleanup/800/600"
+      "image": "https://picsum.photos/seed/cleanup/800/600",
+      "expectation": "Lead the cleanup at the end of the event."
     }
   ],
   "parking": {

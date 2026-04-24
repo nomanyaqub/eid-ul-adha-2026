@@ -5,13 +5,44 @@ async function init() {
 
     renderHero(data.hero);
     renderPredefinedBundles(data.predefinedBundles);
-    renderFamilies(
-      data.families,
-      data.predefinedBundles,
-      data.supportingItems,
-      data.essentialsBoxes,
-    );
-    renderQuickSearch(data.families);
+    // If families list is empty, show not available message and hide search/browse
+    if (!data.families || data.families.length === 0) {
+      // Hide search and chips
+      const searchField = document.getElementById("family-search");
+      const chips = document.getElementById("quick-search-chips");
+      const familiesList = document.getElementById("families-list");
+      const infoContainer = document.getElementById("search-info-container");
+      // Hide search icon in search field
+      const searchIcon = document.querySelector(
+        "#families .material-symbols-outlined.text-stone-400",
+      );
+      if (searchIcon) searchIcon.style.display = "none";
+      if (searchField) searchField.style.display = "none";
+      if (chips) chips.style.display = "none";
+      if (familiesList) familiesList.style.display = "none";
+      // Hide the instruction text
+      const instructionText = document.querySelector(
+        "#families .text-stone-600.mt-6.text-lg",
+      );
+      if (instructionText) instructionText.style.display = "none";
+      if (infoContainer) {
+        infoContainer.innerHTML = `<div class="text-center py-12 animate-in fade-in zoom-in duration-500">
+          <div class="w-20 h-20 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <span class="material-symbols-outlined text-stone-300 text-4xl">search_off</span>
+          </div>
+          <h3 class="text-xl font-bold text-stone-800">Not available yet</h3>
+          <p class="text-stone-500 mt-2">Will be available once bundles are published and assigned to the families.</p>
+        </div>`;
+      }
+    } else {
+      renderFamilies(
+        data.families,
+        data.predefinedBundles,
+        data.supportingItems,
+        data.essentialsBoxes,
+      );
+      renderQuickSearch(data.families);
+    }
     renderMenu(data.menu);
     renderLogistics(data.logistics);
     renderVolunteers(data.volunteers);
@@ -38,6 +69,67 @@ async function init() {
 
     // Calendar functionality
     const calendarBtn = document.getElementById("calendar-btn");
+    // Hide menu links if flags are false
+    if (data.showBundlesSection === false) {
+      document
+        .querySelectorAll('a[href="#predefined-bundles"]')
+        .forEach((el) => (el.style.display = "none"));
+    }
+    if (data.showFamiliesSection === false) {
+      document
+        .querySelectorAll('a[href="#families"]')
+        .forEach((el) => (el.style.display = "none"));
+    }
+
+    // Hide or render Bundles section
+    const bundlesSection = document.getElementById("predefined-bundles");
+    if (bundlesSection && data.showBundlesSection === false) {
+      bundlesSection.style.display = "none";
+    } else if (data.showBundlesSection !== false) {
+      renderPredefinedBundles(data.predefinedBundles);
+    }
+
+    // Hide or render Families section
+    const familiesSection = document.getElementById("families");
+    if (familiesSection && data.showFamiliesSection === false) {
+      familiesSection.style.display = "none";
+    } else if (data.showFamiliesSection !== false) {
+      // If families list is empty, show not available message and hide search/browse
+      if (!data.families || data.families.length === 0) {
+        const searchField = document.getElementById("family-search");
+        const chips = document.getElementById("quick-search-chips");
+        const familiesList = document.getElementById("families-list");
+        const infoContainer = document.getElementById("search-info-container");
+        const searchIcon = document.querySelector(
+          "#families .material-symbols-outlined.text-stone-400",
+        );
+        if (searchIcon) searchIcon.style.display = "none";
+        if (searchField) searchField.style.display = "none";
+        if (chips) chips.style.display = "none";
+        if (familiesList) familiesList.style.display = "none";
+        const instructionText = document.querySelector(
+          "#families .text-stone-600.mt-6.text-lg",
+        );
+        if (instructionText) instructionText.style.display = "none";
+        if (infoContainer) {
+          infoContainer.innerHTML = `<div class="text-center py-12 animate-in fade-in zoom-in duration-500">
+                  <div class="w-20 h-20 bg-stone-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="material-symbols-outlined text-stone-300 text-4xl">search_off</span>
+                  </div>
+                  <h3 class="text-xl font-bold text-stone-800">Not available yet</h3>
+                  <p class="text-stone-500 mt-2">Will be available once bundles are published and assigned to the families.</p>
+                </div>`;
+        }
+      } else {
+        renderFamilies(
+          data.families,
+          data.predefinedBundles,
+          data.supportingItems,
+          data.essentialsBoxes,
+        );
+        renderQuickSearch(data.families);
+      }
+    }
     const calendarMenu = document.getElementById("calendar-menu");
     const downloadIcsBtn = document.getElementById("download-ics");
     const openGCalBtn = document.getElementById("open-gcal");
@@ -640,10 +732,11 @@ function renderVolunteers(volunteers) {
     .map(
       (team) => `
         <div class="flex flex-col">
-            <h3 class="text-xl font-black font-headline flex items-center gap-3 mb-6 ${getTextColor(team.color)}">
+            <h3 class="text-xl font-black font-headline flex items-center gap-3 mb-2 ${getTextColor(team.color)}">
                 ${team.id}. ${team.team}
                 <div class="flex-grow h-1 chamakpatti-border opacity-40"></div>
             </h3>
+            <p class="text-stone-500 mb-4 italic">${team.expectation || ""}</p>
             <div class="space-y-2">
                 ${team.members
                   .map(
