@@ -264,8 +264,8 @@ function renderHero(hero) {
                 ${hero.subtitle}
             </span>
             <h1 class="text-5xl md:text-7xl lg:text-8xl font-black text-[#b71029] font-headline leading-none mb-6">
-                Eid Family <br />
-                <span class="text-[#00675d]">BBQ</span>
+                <span class="text-[#00675d]">Eid Family</span>
+                BBQ <br />
             </h1>
             <div class="w-24 md:w-32 h-2 chamakpatti-border mb-8 mx-auto lg:mx-0"></div>
             
