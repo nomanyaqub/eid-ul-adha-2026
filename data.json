@@ -293,10 +293,6 @@
   },
   "faqs": [
     {
-      "question": "How does the menu work?",
-      "answer": "The menu is served in stages. We start with appetizers, then move to main food and BBQ. Kids are served first, then the first BBQ round is shared, followed by open BBQ. Desserts and tea are served later."
-    },
-    {
       "question": "What should I bring?",
       "answer": "Please bring your assigned bundle items, essentials box, water for your family and sun protection like caps or sunscreen."
     },
@@ -317,12 +313,20 @@
       "answer": "There will be designated tables for bundles and essentials. Please place your items there when you arrive."
     },
     {
+      "question": "How does the menu work?",
+      "answer": "The menu is served in stages. We start with appetizers, then move to main food and BBQ. Kids are served first, then the first BBQ round is for ladies, followed by open BBQ. Desserts and tea are served later."
+    },
+    {
+      "question": "Are there main dishes as well or only BBQ?",
+      "answer": "Yes, we have both. There will be some cooked main dishes along with live BBQ. The idea is to have food available early while BBQ continues fresh."
+    },
+    {
       "question": "How will BBQ be served?",
       "answer": "We will first prepare food for kids, then serve a first round (ladies first), and after that BBQ will continue openly as it gets ready."
     },
     {
       "question": "What if I cannot bring my bundle?",
-      "answer": "Please inform in advance so we can reassign it to another family."
+      "answer": "If you cannot join, please inform in advance so we can reassign it to another family."
     },
     {
       "question": "Can I get help carrying items?",
