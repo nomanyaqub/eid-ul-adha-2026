@@ -781,9 +781,10 @@ function renderParking(parking, location) {
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-                    <div class="absolute top-6 left-6 bg-[#b71029] text-white text-xs font-black px-4 py-2 uppercase tracking-widest rounded-sm shadow-lg">
+                    <!-- <div class="absolute top-6 left-6 bg-[#b71029] text-white text-xs font-black px-4 py-2 uppercase tracking-widest rounded-sm shadow-lg">
                         EVENT LOCATION
                     </div>
+                    -->
                 </div>
                 <div class="absolute -inset-10 bg-[#b71029]/20 blur-[100px] rounded-full -z-10 opacity-30"></div>
             </div>
