@@ -44,7 +44,7 @@ async function init() {
       renderQuickSearch(data.families);
     }
     renderMenu(data.menu);
-    renderLogistics(data.logistics);
+    renderLogistics(data.logistics, data.supportingItems, data.families);
     renderVolunteers(data.volunteers);
     renderParking(data.parking, data.hero.location);
     renderFAQs(data.faqs);
@@ -648,7 +648,7 @@ function renderMenu(menu) {
     .join("");
 }
 
-function renderLogistics(logistics) {
+function renderLogistics(logistics, supportingItems, families) {
   const container = document.getElementById("logistics-content");
   container.innerHTML = `
         <div class="bg-white p-8 md:p-12 rounded-3xl shadow-sm relative overflow-hidden border border-stone-200 w-full">
@@ -688,6 +688,13 @@ function renderLogistics(logistics) {
 
                     <!-- Equipment & Details (Right) -->
                     <div class="space-y-6">
+                        <div>
+                            <h3 class="text-2xl font-black font-headline text-[#b71029] mb-6 flex items-center gap-3">
+                                <span class="material-symbols-outlined">analytics</span>
+                                Equipment Tracker
+                            </h3>
+                            <div id="equipment-chart" class="w-full bg-white p-4 rounded-2xl border border-stone-100"></div>
+                        </div>
                         <div class="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                             <h4 class="text-xl font-bold text-[#b71029] mb-4 flex items-center gap-3">
                                 <span class="material-symbols-outlined">oven_gen</span>
@@ -735,6 +742,182 @@ function renderLogistics(logistics) {
             </div>
         </div>
     `;
+
+  // Render the chart after the HTML is set
+  setTimeout(() => renderEquipmentChart(supportingItems, families), 0);
+
+  // Re-render chart on window resize
+  const handleResize = () => {
+    if (document.getElementById("equipment-chart")) {
+      renderEquipmentChart(supportingItems, families);
+    }
+  };
+  window.removeEventListener("resize", handleResize);
+  window.addEventListener("resize", handleResize);
+}
+
+function renderEquipmentChart(supportingItems, families) {
+  const container = document.getElementById("equipment-chart");
+  if (!container) return;
+
+  // Clear previous chart
+  container.innerHTML = "";
+  // Clean up existing tooltip from body to avoid duplicates on resize
+  d3.select("#chart-tooltip").remove();
+
+  const data = supportingItems.map((item) => {
+    const contributors = families.filter((f) =>
+      f.supportingItemIds.includes(item.id),
+    );
+    return {
+      name: item.name,
+      count: contributors.length,
+      contributors: contributors.map((f) => f.familyName),
+    };
+  });
+
+  const margin = { top: 10, right: 100, bottom: 10, left: 140 };
+  const width = container.clientWidth - margin.left - margin.right;
+  const height = data.length * 40;
+
+  const svg = d3
+    .select("#equipment-chart")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr(
+      "viewBox",
+      `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`,
+    )
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .append("g")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+  const x = d3
+    .scaleLinear()
+    .domain([0, d3.max(data, (d) => d.count) || 1])
+    .range([0, width]);
+
+  const y = d3
+    .scaleBand()
+    .range([0, height])
+    .domain(data.map((d) => d.name))
+    .padding(0.3);
+
+  // Hit area behind bars for better hover/click
+  svg
+    .selectAll(".hit-area")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("class", "hit-area")
+    .attr("x", 0)
+    .attr("y", (d) => y(d.name))
+    .attr("width", width)
+    .attr("height", y.bandwidth())
+    .attr("fill", "transparent")
+    .style("cursor", "pointer");
+
+  // Bars
+  svg
+    .selectAll(".bar")
+    .data(data)
+    .enter()
+    .append("rect")
+    .attr("class", "bar")
+    .attr("x", x(0))
+    .attr("y", (d) => y(d.name))
+    .attr("width", 0)
+    .attr("height", y.bandwidth())
+    .attr("fill", "#8a4b11")
+    .attr("rx", 4)
+    .style("pointer-events", "none") // Let events pass to hit-area
+    .transition()
+    .duration(1000)
+    .attr("width", (d) => x(d.count));
+
+  // Labels (Names)
+  svg
+    .append("g")
+    .attr("class", "y-axis")
+    .call(d3.axisLeft(y).tickSize(0))
+    .selectAll("text")
+    .attr("class", "text-[11px] font-bold text-stone-600")
+    .style("text-anchor", "end")
+    .attr("dx", "-10px");
+
+  svg.select(".y-axis").select(".domain").remove();
+
+  // Value Labels
+  svg
+    .selectAll(".label")
+    .data(data)
+    .enter()
+    .append("text")
+    .attr("class", "text-[11px] font-black text-[#8a4b11]")
+    .attr("x", (d) => x(d.count) + 10)
+    .attr("y", (d) => y(d.name) + y.bandwidth() / 2)
+    .attr("dy", ".35em")
+    .text((d) => `${d.count}`);
+
+  // Tooltips (Interaction)
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr(
+      "class",
+      "absolute z-[999] bg-stone-900 text-white p-3 rounded-xl shadow-2xl text-[10px] pointer-events-none opacity-0 transition-opacity",
+    )
+    .style("width", "160px")
+    .attr("id", "chart-tooltip");
+
+  const showTooltip = (event, d) => {
+    tooltip.style("opacity", "1").html(`
+                <h4 class="font-black uppercase tracking-widest text-[#ffab69] mb-1 border-b border-white/10 pb-1">${d.name}</h4>
+                <div class="space-y-1">
+                    ${
+                      d.count > 0
+                        ? d.contributors
+                            .map(
+                              (name) =>
+                                `<p class="font-medium text-white/90">• ${name}</p>`,
+                            )
+                            .join("")
+                        : `<p class="opacity-40 italic">No families bringing ${d.name} yet</p>`
+                    }
+                </div>
+            `);
+    tooltip
+      .style("left", event.pageX + 15 + "px")
+      .style("top", event.pageY - 15 + "px");
+  };
+
+  const hideTooltip = () => {
+    tooltip.style("opacity", "0");
+  };
+
+  svg
+    .selectAll(".hit-area")
+    .on("mouseover", function (event, d) {
+      svg
+        .selectAll(".bar")
+        .filter((bar) => bar.name === d.name)
+        .attr("fill", "#b71029");
+      showTooltip(event, d);
+    })
+    .on("mousemove", function (event, d) {
+      showTooltip(event, d);
+    })
+    .on("mouseout", function (event, d) {
+      svg
+        .selectAll(".bar")
+        .filter((bar) => bar.name === d.name)
+        .attr("fill", "#8a4b11");
+      hideTooltip();
+    })
+    .on("click", function (event, d) {
+      showTooltip(event, d);
+    });
 }
 
 function renderVolunteers(volunteers) {

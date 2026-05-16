@@ -131,8 +131,8 @@
     { "id": "bbq-grill-small", "name": "BBQ Grill - Small" },
     { "id": "table", "name": "Folding Table" },
     { "id": "cooler-box", "name": "Cooler Box (for Drinks)" },
-    { "id": "music-box", "name": "Music Box (Bluetooth Speaker)" },
-    { "id": "outdoor-games", "name": "Outdoor Games & Activities" }
+    { "id": "music-box", "name": "Music Box" },
+    { "id": "outdoor-games", "name": "Games & Activities" }
   ],
   "essentialsBoxes": {
     "family": [
@@ -401,7 +401,7 @@
     }
   ],
   "logistics": {
-    "equipment": "We will have a mix of large, medium, and small grills. If you are bringing a grill, please also bring charcoal and BBQ tools if available.",
+    "equipment": "We will have a mix of large, medium and small grills. If you are bringing a grill, please also bring BBQ tools if available.",
     "timeline": [
       {
         "time": "12:30 PM",
@@ -459,7 +459,7 @@
         "desc": "Bins for recycling and general waste are placed near the tables."
       }
     ],
-    "proTip": "Please bring your assigned bundle items, essentials, water and sun protection like caps or sunscreen."
+    "proTip": "Please bring your assigned bundle items, essentials and sun protection like caps or sunscreen."
   },
   "volunteers": [
     {
@@ -470,10 +470,10 @@
         "Aisha Shahzad",
         "Annam Mansoor",
         "Faisal Mukhtar",
+        "Fatima Noman",
         "Haseeb Akram",
         "Khatija & Ahad Buksh",
-        "Muhammad Nouman",
-        "Noman Yaqub"
+        "Muhammad Nouman"
       ],
       "color": "secondary",
       "image": "https://picsum.photos/seed/setup/800/600",
