@@ -464,22 +464,6 @@
   "volunteers": [
     {
       "id": "01",
-      "team": "Grill Team",
-      "icon": "fireplace",
-      "members": [
-        "Abdul Subhan",
-        "Atif Shahzad",
-        "Faisal Rafi",
-        "Hasnain Tarar",
-        "Mohsin Nawaz",
-        "Wajid Ehsan"
-      ],
-      "color": "primary",
-      "image": "https://picsum.photos/seed/grill/800/600",
-      "expectation": "Responsible for starting and managing grills."
-    },
-    {
-      "id": "02",
       "team": "Setup Team",
       "icon": "event_seat",
       "members": [
@@ -495,6 +479,23 @@
       "image": "https://picsum.photos/seed/setup/800/600",
       "expectation": "Arrive early to set up tables and organize the event area."
     },
+    {
+      "id": "02",
+      "team": "Grill Team",
+      "icon": "fireplace",
+      "members": [
+        "Abdul Subhan",
+        "Atif Shahzad",
+        "Faisal Rafi",
+        "Hasnain Tarar",
+        "Mohsin Nawaz",
+        "Wajid Ehsan"
+      ],
+      "color": "primary",
+      "image": "https://picsum.photos/seed/grill/800/600",
+      "expectation": "Responsible for starting and managing grills."
+    },
+
     {
       "id": "03",
       "team": "Kids Activity Team",
@@ -523,15 +524,6 @@
       "color": "primary",
       "image": "https://picsum.photos/seed/cleanup/800/600",
       "expectation": "Helps throughout the event where needed."
-    },
-    {
-      "id": "05",
-      "team": "Cleanup Team",
-      "icon": "cleaning_services",
-      "members": ["Everyone!"],
-      "color": "primary",
-      "image": "https://picsum.photos/seed/cleanup/800/600",
-      "expectation": "Lead the cleanup throughout the event."
     }
   ],
   "parking": {
