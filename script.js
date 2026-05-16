@@ -357,10 +357,21 @@ function renderHero(hero) {
 
 function renderQuickSearch(families) {
   const container = document.getElementById("quick-search-chips");
-  // Get a few unique family names for chips
-  const sampleFamilies = families
-    .slice(0, 4)
-    .map((f) => f.familyName.split(" ")[0]);
+
+  // Get unique family names (first word)
+  const uniqueNames = Array.from(
+    new Set(families.map((f) => f.familyName.split(" ")[0])),
+  );
+  // Shuffle and pick 4
+  function getRandomFour(arr) {
+    const shuffled = arr.slice();
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled.slice(0, 4);
+  }
+  const sampleFamilies = getRandomFour(uniqueNames);
 
   container.innerHTML = `
         ${sampleFamilies

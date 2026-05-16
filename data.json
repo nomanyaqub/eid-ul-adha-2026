@@ -142,8 +142,9 @@
       { "name": "Disposable Cutlery" },
       { "name": "Disposable Cups (for drinks & tea)" },
       { "name": "Hot Water Kettle (for tea/coffee)" },
-      { "name": "Picnic Mat and /or Chairs" },
+      { "name": "Picnic Mat and/or Chairs" },
       { "name": "Tissues" },
+      { "name": "Sun Protection (caps, sunscreen)" },
       { "name": "Extras for your family.." }
     ],
     "bbq": [
@@ -163,11 +164,10 @@
     "tea": [
       { "name": "Tea Bags", "quantity": "100" },
       { "name": "Condensed Milk", "quantity": "2 liters" },
-      { "name": "Sugar Cubes", "quantity": "1 kg" },
-      { "name": "Sheet Cake", "quantity": "1" }
+      { "name": "Sugar Cubes", "quantity": "1 kg" }
     ],
     "coffee": [
-      { "name": "Instant Coffee Sticks (3-in-1)", "quantity": "50 sticks" },
+      { "name": "Instant Coffee Sticks", "quantity": "50 sticks" },
       { "name": "Brown Sugar", "quantity": "500 g" }
     ]
   },
