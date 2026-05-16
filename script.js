@@ -490,7 +490,7 @@ function renderFamilies(families, bundles, supportingItems, essentialsBoxes) {
                                       (item) => `
                                 <div class="flex items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-100">
                                     <span class="font-medium">${item.name}</span>
-                                    <span class="font-bold text-[#00675d]">x${item.qty}</span>
+                                    <span class="font-bold text-[#00675d]">${item.qty}</span>
                                 </div>
                             `,
                                     )

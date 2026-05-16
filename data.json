@@ -1,6 +1,6 @@
 {
   "showBundlesSection": false,
-  "showFamiliesSection": false,
+  "showFamiliesSection": true,
   "hero": {
     "title": "Eid BBQ 2026",
     "subtitle": "Eid-ul-Adha 2026 Celebration",
@@ -18,72 +18,121 @@
   },
   "predefinedBundles": [
     {
-      "id": "b1",
-      "bundleName": "BBQ Meat Bundle",
+      "id": "1a",
+      "bundleName": "Family Bundle 1a",
       "items": [
-        { "name": "Seekh Kababs", "qty": 6 },
-        { "name": "Chicken Tikka Pieces", "qty": 4 },
-        { "name": "Large Handi Biryani", "qty": 1 },
-        { "name": "Naan & Raita", "qty": 6 }
+        { "name": "Chicken Tikka Boti (Skewers)", "qty": "1.5 kg" },
+        { "name": "Fruit Trifle", "qty": "1 Large Bowl" },
+        { "name": "Corn (pre-boiled)", "qty": "2 (pack of two)" },
+        { "name": "Serving Spoon for Fruit Trifle", "qty": "1" }
       ]
     },
     {
-      "id": "b2",
-      "bundleName": "Appetizer Bundle",
+      "id": "1b",
+      "bundleName": "Family Bundle 1b",
       "items": [
-        { "name": "Beef Patties", "qty": 4 },
-        { "name": "Chicken Wings", "qty": 4 },
-        { "name": "Parathas", "qty": 4 },
-        { "name": "Salad Platter", "qty": 1 }
+        { "name": "Chicken Tikka Boti (Skewers)", "qty": "1.5 kg" },
+        { "name": "Sheer Khurma", "qty": "1 Large Bowl" },
+        { "name": "Corn (pre-boiled)", "qty": "2 (pack of two)" },
+        { "name": "Serving Spoon for Sheer Khurma", "qty": "1" }
       ]
     },
     {
-      "id": "b3",
-      "bundleName": "BBQ Variety Bundle",
+      "id": "2a",
+      "bundleName": "Family Bundle 2a",
       "items": [
-        { "name": "Chapli Kababs", "qty": 12 },
-        { "name": "Whole Charcoal Chicken", "qty": 2 },
-        { "name": "Extra Spicy Chutney", "qty": 1 },
-        { "name": "Kulchas", "qty": 8 }
+        { "name": "Chicken Malai Boti (Skewers)", "qty": "1.5 kg" },
+        { "name": "Pasta", "qty": "1 Large Bowl" },
+        { "name": "Butter Bread (butterbaguette)", "qty": "1 pack" },
+        { "name": "Mayo", "qty": "1x 250ml" },
+        { "name": "Serving Spoon for Pasta", "qty": "1" }
       ]
     },
     {
-      "id": "b4",
-      "bundleName": "Rice & Curry Bundle",
+      "id": "2b",
+      "bundleName": "Family Bundle 2b",
       "items": [
-        { "name": "Sindhi Mutton Biryani", "qty": 1 },
-        { "name": "Shami Kababs", "qty": 8 },
-        { "name": "Kachumbar Salad", "qty": 2 },
-        { "name": "Zeera Raita", "qty": 2 }
+        { "name": "Chicken Wraps", "qty": "15 rolls" },
+        { "name": "Channa Chat", "qty": "1 Big Bowl" },
+        { "name": "Corn (pre-boiled)", "qty": "2 (pack of two)" },
+        { "name": "Ketchup", "qty": "1x 250ml" },
+        { "name": "Serving Spoon for Channa Chat", "qty": "1" }
       ]
     },
     {
-      "id": "b5",
-      "bundleName": "Large Meat Bundle",
+      "id": "3a",
+      "bundleName": "Family Bundle 3a",
       "items": [
-        { "name": "Whole Lamb Sajji", "qty": 1 },
-        { "name": "Kaak Bread", "qty": 6 },
-        { "name": "Special Sajji Masala", "qty": 1 },
-        { "name": "Lemon Wedges", "qty": 10 }
+        {
+          "name": "Chicken Thigh Boneless (Hähnchen Koteletts)",
+          "qty": "10 pieces"
+        },
+        { "name": "Cake", "qty": "1" },
+        { "name": "Butter Bread (butterbaguette)", "qty": "1 pack" },
+        { "name": "Cake Knife", "qty": "1" }
       ]
     },
     {
-      "id": "b6",
-      "bundleName": "BBQ + Tea Prep Bundle",
+      "id": "3b",
+      "bundleName": "Family Bundle 3b",
       "items": [
-        { "name": "Namkeen Tikka", "qty": 10 },
-        { "name": "Afghani Naan", "qty": 4 },
-        { "name": "Dumba Karahi", "qty": 1 },
-        { "name": "Green Tea Leaves", "qty": 1 }
+        {
+          "name": "Chicken Thigh Boneless (Hähnchen Koteletts)",
+          "qty": "10 pieces"
+        },
+        { "name": "Muffins", "qty": "12" },
+        { "name": "Butter Bread (butterbaguette)", "qty": "1 pack" }
+      ]
+    },
+    {
+      "id": "4a",
+      "bundleName": "Family Bundle 4a",
+      "items": [
+        { "name": "Mutton Pulao", "qty": "1kg Rice 1.5kg Meat" },
+        { "name": "Mint or Zeera Raita", "qty": "1 Kg Bucket" },
+        { "name": "Serving Spoon for Pulao", "qty": "1" },
+        { "name": "Serving Spoon for Raita", "qty": "1" }
+      ]
+    },
+    {
+      "id": "4b",
+      "bundleName": "Family Bundle 4b",
+      "items": [
+        { "name": "Chappli Kebab", "qty": "1.5 kg" },
+        { "name": "Wurst", "qty": "2 packets" },
+        { "name": "Salad", "qty": "1 bowl" },
+        { "name": "Serving Spoon for Salad", "qty": "1" }
+      ]
+    },
+    {
+      "id": "5a",
+      "bundleName": "Family Bundle 5a",
+      "items": [
+        { "name": "Chicken Sandwich", "qty": "20 Pieces" },
+        { "name": "Fruit Cream Salad", "qty": "1 Large Bowl" },
+        { "name": "Wurst", "qty": "2 packets" },
+        { "name": "Serving Spoon for Salad", "qty": "1" }
+      ]
+    },
+    {
+      "id": "5b",
+      "bundleName": "Family Bundle 5b",
+      "items": [
+        { "name": "Chicken Sandwich", "qty": "20 Pieces" },
+        { "name": "Sheer Khurma", "qty": "1 Large Bowl" },
+        { "name": "Wurst", "qty": "2 packets" },
+        { "name": "Serving Spoon for Sheer Khurma", "qty": "1" }
       ]
     }
   ],
   "supportingItems": [
-    { "id": "s1", "name": "Folding Chairs" },
-    { "id": "s2", "name": "Picnic Blanket" },
-    { "id": "s3", "name": "Portable Speaker" },
-    { "id": "s4", "name": "Cooler Box" },
-    { "id": "s5", "name": "Disposable Plates" }
+    { "id": "bbq-grill-large", "name": "BBQ Grill - Large" },
+    { "id": "bbq-grill-med", "name": "BBQ Grill - Medium" },
+    { "id": "bbq-grill-small", "name": "BBQ Grill - Small" },
+    { "id": "table", "name": "Folding Table" },
+    { "id": "cooler-box", "name": "Cooler Box (for Drinks)" },
+    { "id": "music-box", "name": "Music Box (Bluetooth Speaker)" },
+    { "id": "outdoor-games", "name": "Outdoor Games & Activities" }
   ],
   "essentialsBoxes": {
     "family": [
@@ -101,7 +150,9 @@
       { "name": "Aluminum Trays", "quantity": "12" },
       { "name": "BBQ Tongs (Wooden/Steel)", "quantity": "4" },
       { "name": "Igniters", "quantity": "4" },
-      { "name": "Grill Cleaning Brush", "quantity": "2" }
+      { "name": "Grill Cleaning Brush", "quantity": "2" },
+      { "name": "Charcoal (for grills)", "quantity": "4 bags" },
+      { "name": "Disposable Gloves", "quantity": "1 box" }
     ],
     "cooking": [
       { "name": "Vegetable Oil", "quantity": "2 liters" },
@@ -122,28 +173,180 @@
   },
   "families": [
     {
-      "familyName": "Family A",
-      "bundleId": "b1",
-      "supportingItemIds": ["s1", "s2"],
-      "essentialsBoxIds": ["family", "bbq"],
-      "lastUpdated": "Today, 10:30 AM",
-      "type": "groups"
-    },
-    {
-      "familyName": "Family B",
-      "bundleId": "b2",
-      "supportingItemIds": ["s3", "s4"],
+      "familyName": "Haleema and Faisal",
+      "bundleId": "1a",
+      "supportingItemIds": ["bbq-grill-small", "table", "outdoor-games"],
       "essentialsBoxIds": ["family"],
-      "lastUpdated": "Yesterday, 4:15 PM",
+      "lastUpdated": "May 16, 14:05",
       "type": "family_restroom"
     },
     {
-      "familyName": "Family C",
-      "bundleId": "b3",
-      "supportingItemIds": ["s1", "s5"],
+      "familyName": "Asad Malik & Mona Malik",
+      "bundleId": "1a",
+      "supportingItemIds": ["table"],
       "essentialsBoxIds": ["family"],
-      "lastUpdated": "June 15, 9:00 AM",
-      "type": "diversity_3"
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Javaria Syed (Fahad Mustafa)",
+      "bundleId": "1b",
+      "supportingItemIds": ["bbq-grill-small"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Aisha Shahzad (Atif Shahzad)",
+      "bundleId": "1b",
+      "supportingItemIds": ["table"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Wajid Ehsan",
+      "bundleId": "2a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Kanza Usman (Usman Wain)",
+      "bundleId": "2a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Daniyal Butt",
+      "bundleId": "2b",
+      "supportingItemIds": ["bbq-grill-small", "table"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Mansoor Khan",
+      "bundleId": "2b",
+      "supportingItemIds": ["cooler-box", "outdoor-games"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Haseeb Akram",
+      "bundleId": "3a",
+      "supportingItemIds": ["bbq-grill-med"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Fatima Noman",
+      "bundleId": "3a",
+      "supportingItemIds": ["bbq-grill-med", "table"],
+      "essentialsBoxIds": ["family", "bbq", "cooking"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Ahad Buksh",
+      "bundleId": "3a",
+      "supportingItemIds": ["bbq-grill-med", "table"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Shiza Salahuddin",
+      "bundleId": "3b",
+      "supportingItemIds": ["music-box"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Faisal Mukhtar",
+      "bundleId": "3b",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family", "coffee"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Hassan Asif & Ramsha Malik",
+      "bundleId": "3b",
+      "supportingItemIds": ["table"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Muhammad Zeeshan Butt",
+      "bundleId": "4a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Sumera Kousar and Mohsin Nawaz",
+      "bundleId": "4a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Sana & Saad",
+      "bundleId": "4b",
+      "supportingItemIds": ["bbq-grill-small"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Hareem & Wasay",
+      "bundleId": "4b",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family", "tea"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Ahmed Khateeb",
+      "bundleId": "4b",
+      "supportingItemIds": ["music-box", "outdoor-games"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Manal Fatimi",
+      "bundleId": "5a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Tanzeela Nouman",
+      "bundleId": "5a",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
+    },
+    {
+      "familyName": "Aqsa Khalid",
+      "bundleId": "5b",
+      "supportingItemIds": [],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
     }
   ],
   "menu": [
@@ -201,14 +404,19 @@
     "equipment": "We will have a mix of large, medium, and small grills. If you are bringing a grill, please also bring charcoal and BBQ tools if available.",
     "timeline": [
       {
+        "time": "12:30 PM",
+        "event": "Setup & BBQ Crew Arrival",
+        "details": "Setup team and BBQ crew arrive early to prepare grills, tables, charcoal and serving areas"
+      },
+      {
         "time": "1:00 PM",
-        "event": "Arrival & Setup",
-        "details": "Setup team and BBQ crew arrive early. Families arrive and place their assigned items on the designated tables"
+        "event": "Family Arrival",
+        "details": "Families arrive and place assigned items on designated tables"
       },
       {
         "time": "1:30 PM",
         "event": "Appetizers & Kids BBQ",
-        "details": "Appetizers and first BBQ round for kids are served"
+        "details": "Appetizers are served while BBQ preparation continues. Kids BBQ is served first once grills are ready"
       },
       {
         "time": "2:15 PM",
@@ -218,7 +426,12 @@
       {
         "time": "2:45 PM",
         "event": "Open BBQ",
-        "details": "BBQ is open for everyone"
+        "details": "Fresh BBQ continues for everyone as it becomes ready"
+      },
+      {
+        "time": "3:30 PM",
+        "event": "BBQ Wrap-Up & Cleanup",
+        "details": "Final BBQ batches are served and cleanup of grills and BBQ area begins. Everyone is encouraged to help with cleanup before activities, desserts and tea"
       },
       {
         "time": "4:00 PM",
@@ -253,7 +466,14 @@
       "id": "01",
       "team": "Grill Team",
       "icon": "fireplace",
-      "members": ["N/A"],
+      "members": [
+        "Abdul Subhan",
+        "Atif Shahzad",
+        "Faisal Rafi",
+        "Hasnain Tarar",
+        "Mohsin Nawaz",
+        "Wajid Ehsan"
+      ],
       "color": "primary",
       "image": "https://picsum.photos/seed/grill/800/600",
       "expectation": "Responsible for starting and managing grills."
@@ -262,7 +482,15 @@
       "id": "02",
       "team": "Setup Team",
       "icon": "event_seat",
-      "members": ["N/A"],
+      "members": [
+        "Aisha Shahzad",
+        "Annam Mansoor",
+        "Faisal Mukhtar",
+        "Haseeb Akram",
+        "Khatija & Ahad Buksh",
+        "Muhammad Nouman",
+        "Noman Yaqub"
+      ],
       "color": "secondary",
       "image": "https://picsum.photos/seed/setup/800/600",
       "expectation": "Arrive early to set up tables and organize the event area."
@@ -271,19 +499,39 @@
       "id": "03",
       "team": "Kids Activity Team",
       "icon": "child_care",
-      "members": ["N/A"],
+      "members": ["Kanza Usman", "Shiza Salahuddin"],
       "color": "tertiary",
       "image": "https://picsum.photos/seed/kids/800/600",
       "expectation": "Organize and supervise games and activities for children."
     },
     {
       "id": "04",
-      "team": "Cleanup Team",
+      "team": "Support Team",
       "icon": "cleaning_services",
-      "members": ["N/A"],
+      "members": [
+        "Ahmed Khateeb",
+        "Danyal Butt",
+        "Emmad Fatimi",
+        "Hareem & Wasay",
+        "Hassan Asif",
+        "Javaria Syed",
+        "Mona Malik",
+        "Rehan Shafiq",
+        "Sana Saad",
+        "Zeeshan Butt"
+      ],
       "color": "primary",
       "image": "https://picsum.photos/seed/cleanup/800/600",
-      "expectation": "Lead the cleanup at the end of the event."
+      "expectation": "Helps throughout the event where needed."
+    },
+    {
+      "id": "05",
+      "team": "Cleanup Team",
+      "icon": "cleaning_services",
+      "members": ["Everyone!"],
+      "color": "primary",
+      "image": "https://picsum.photos/seed/cleanup/800/600",
+      "expectation": "Lead the cleanup throughout the event."
     }
   ],
   "parking": {
