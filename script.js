@@ -311,7 +311,7 @@ function renderHero(hero) {
                     <span class="material-symbols-outlined text-[#b71029] text-2xl md:text-3xl group-hover:text-[#00675d]">location_on</span>
                     <div>
                         <p class="text-[10px] md:text-xs uppercase font-bold tracking-widest text-stone-400">Location</p>
-                        <p class="font-bold text-sm md:text-base text-stone-900">${hero.location}</p>
+                        <p class="font-bold text-sm md:text-base text-stone-900">${hero.locationName}</p>
                     </div>
                 </a>
             </div>

@@ -13,7 +13,8 @@
       "description": "Eid BBQ with family, food and live grilling",
       "location": "Stadtpark Hamburg"
     },
-    "location": "Stadtpark Hamburg",
+    "locationName": "Stadtpark Hamburg",
+    "location": "Spielplatz im Stadtpark Hamburg",
     "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5EDPcfZS0PUIiqhLpz1zXnmZi12MX4B_P9GBiQYMQwFHTizEKIG6aFt2_qzVFRlHlrCKgUS9eLO8RgbdK0K1-o43io2iCC1on1qQlEwcPQcWNU0JHnm1IoFtfeCno40zMNKF4RwPdl4Ou3TmSUIG4QUFsE3a5m5jXYJnHUn0YnzEl2-csIYK61HrZAoKor9XZeiDHebRZ_HDbL_0XO8so-L6T_Yep7IyBVcgjOdsoO2wW-l_Kg7nJRyouRSpyqFyvu0eq6w1NKxiL"
   },
   "predefinedBundles": [
