@@ -161,6 +161,13 @@
       { "name": "Aluminum Foil", "quantity": "3 Rolls" },
       { "name": "Garbage Bags (100L)", "quantity": "1" }
     ],
+    "decor": [
+      { "name": "Table Covers / Tablecloths", "quantity": "1 pack" },
+      { "name": "Eid Decorations / Garlands", "quantity": "2 sets" },
+      { "name": "LED String Lights", "quantity": "1 set" },
+      { "name": "Printed Food & Table Labels", "quantity": "1 set" },
+      { "name": "Tape / Mounting Supplies", "quantity": "1 pack" }
+    ],
     "tea": [
       { "name": "Tea Bags", "quantity": "100" },
       { "name": "Condensed Milk", "quantity": "2 liters" },
@@ -245,10 +252,10 @@
       "type": "family_restroom"
     },
     {
-      "familyName": "Fatima Noman",
+      "familyName": "Noman Yaqub",
       "bundleId": "3a",
       "supportingItemIds": ["bbq-grill-med", "table"],
-      "essentialsBoxIds": ["family", "bbq", "cooking"],
+      "essentialsBoxIds": ["family", "bbq", "cooking", "decor"],
       "lastUpdated": "May 16, 14:05",
       "type": "family_restroom"
     },
@@ -347,6 +354,14 @@
       "essentialsBoxIds": ["family"],
       "lastUpdated": "May 16, 14:05",
       "type": "family_restroom"
+    },
+    {
+      "familyName": "Abdul Subhan",
+      "bundleId": "",
+      "supportingItemIds": ["bbq-grill-med"],
+      "essentialsBoxIds": ["family"],
+      "lastUpdated": "May 16, 14:05",
+      "type": "family_restroom"
     }
   ],
   "menu": [
@@ -405,8 +420,8 @@
     "timeline": [
       {
         "time": "12:30 PM",
-        "event": "Setup & BBQ Crew Arrival",
-        "details": "Setup team and BBQ crew arrive early to prepare grills, tables, charcoal and serving areas"
+        "event": "Event Coordinators & Grill Team Arrival",
+        "details": "Event Coordinators and Grill Team arrive early to prepare grills, tables, charcoal and serving areas"
       },
       {
         "time": "1:00 PM",
@@ -431,7 +446,7 @@
       {
         "time": "3:30 PM",
         "event": "BBQ Wrap-Up & Cleanup",
-        "details": "Final BBQ batches are served and cleanup of grills and BBQ area begins. Everyone is encouraged to help with cleanup before activities, desserts and tea"
+        "details": "Final BBQ batches are served and cleanup of grills and BBQ area begins. Everyone is encouraged to help with cleanup."
       },
       {
         "time": "4:00 PM",
@@ -445,8 +460,8 @@
       },
       {
         "time": "5:30 PM",
-        "event": "Cleanup",
-        "details": "Cleanup team leads, everyone is encouraged to help pack and leave the area clean"
+        "event": "Final Cleanup",
+        "details": "Everyone helps with packing, cleanup and leaving the area clean before heading home"
       }
     ],
     "additionalDetails": [
@@ -464,20 +479,17 @@
   "volunteers": [
     {
       "id": "01",
-      "team": "Setup Team",
+      "team": "Event Coordinators",
       "icon": "event_seat",
       "members": [
-        "Aisha Shahzad",
-        "Annam Mansoor",
-        "Faisal Mukhtar",
-        "Fatima Noman",
-        "Haseeb Akram",
-        "Khatija & Ahad Buksh",
-        "Muhammad Nouman"
+        "Ahad Buksh Family",
+        "Faisal Mukhtar Family",
+        "Haseeb Akram Family",
+        "Noman Yaqub Family"
       ],
       "color": "secondary",
       "image": "https://picsum.photos/seed/setup/800/600",
-      "expectation": "Arrive early to set up tables and organize the event area."
+      "expectation": "Helping plan, coordinate and manage the event throughout the day"
     },
     {
       "id": "02",
@@ -486,24 +498,27 @@
       "members": [
         "Abdul Subhan",
         "Atif Shahzad",
+        "Danyal Butt",
+        "Fahad Mustafa",
         "Faisal Rafi",
         "Hasnain Tarar",
         "Mohsin Nawaz",
+        "Saad Sami",
         "Wajid Ehsan"
       ],
       "color": "primary",
       "image": "https://picsum.photos/seed/grill/800/600",
-      "expectation": "Responsible for starting and managing grills."
+      "expectation": "Responsible for starting and managing grills"
     },
 
     {
       "id": "03",
       "team": "Kids Activity Team",
       "icon": "child_care",
-      "members": ["Kanza Usman", "Shiza Salahuddin"],
+      "members": ["Aisha Shahzad", "Kanza Usman", "Shiza Salahuddin"],
       "color": "tertiary",
       "image": "https://picsum.photos/seed/kids/800/600",
-      "expectation": "Organize and supervise games and activities for children."
+      "expectation": "Organize and supervise games and activities for children"
     },
     {
       "id": "04",
@@ -511,15 +526,16 @@
       "icon": "cleaning_services",
       "members": [
         "Ahmed Khateeb",
-        "Danyal Butt",
+        "Annam Mansoor",
         "Emmad Fatimi",
         "Hareem & Wasay",
         "Hassan Asif",
         "Javaria Syed",
         "Mona Malik",
+        "Muhammad Nouman",
         "Rehan Shafiq",
         "Sana Saad",
-        "Zeeshan Butt"
+        "Usman Wain"
       ],
       "color": "primary",
       "image": "https://picsum.photos/seed/cleanup/800/600",
