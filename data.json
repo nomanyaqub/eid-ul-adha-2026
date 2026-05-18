@@ -171,11 +171,12 @@
     ],
     "tea": [
       { "name": "Tea Bags", "quantity": "100" },
-      { "name": "Condensed Milk", "quantity": "2 liters" },
+      { "name": "Condensed Milk", "quantity": "3x (300ml)" },
       { "name": "Sugar Cubes", "quantity": "1 kg" }
     ],
     "coffee": [
       { "name": "Instant Coffee Sticks", "quantity": "50 sticks" },
+      { "name": "Condensed Milk", "quantity": "3x (300ml)" },
       { "name": "Brown Sugar", "quantity": "500 g" }
     ]
   },
